@@ -195,6 +195,7 @@ def raw_data(df):
     see_data = input('\nWould you like to see the first five lines of the raw data? Enter yes or no.\n')
     line_count = 0
 
+    # loop terminates with any input other than 'yes'
     while see_data == 'yes':
         print(df.iloc[line_count:line_count + 5])
         line_count += 5
