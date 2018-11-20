@@ -15,3 +15,4 @@ washington.csv (gitignore)
 
 ### Credits
 Udacity reviewer provided helpful feedback and guidance on the project
+Syntax help from Python/Pandas documentation and Stack Overflow
