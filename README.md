@@ -9,9 +9,9 @@ This project uses Python to explore data related to bike share systems for three
 
 ### Files used
 bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+chicago.csv (gitignore)
+new_york_city.csv (gitignore)
+washington.csv (gitignore)
 
 ### Credits
 Udacity reviewer provided helpful feedback and guidance on the project
