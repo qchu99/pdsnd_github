@@ -174,8 +174,7 @@ def user_stats(df, city):
 
     # IF statement to proceed with Chicago and New York data only, since washington.csv does not have gender and birth year information.
     if city != 'washington':
-        # calculate and display counts of gender
-        gender = df['Gender'].value_counts()
+        gender = df['Gender'].value_counts() # calculate and display counts of gender
         print('\nThe breakdown of gender is as follows:\n{}'.format(gender))
 
         # calculate and display earliest, most recent, and most common year of birth
